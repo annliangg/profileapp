@@ -29,7 +29,8 @@
             "flexDirection": "column",
             "justifyContent": "center",
             "alignItems": "center",
-            "display": "flex"
+            "display": "flex",
+            "backgroundColor": "rgba(198, 221, 246, 1)"
         },
         "ShowStatusBar": true,
         "StatusBarStyle": "default",
@@ -51,9 +52,88 @@
         "navigationOptions": {
             "headerStyle": {}
         },
-        "tabNavigationOptions": {}
+        "tabNavigationOptions": {},
+        "BackgroundColor": "rgba(198, 221, 246, 1)"
     },
     "children": [
+        {
+            "type": "AdMobBanner",
+            "label": "AdMob Banner",
+            "translatedName": "AdMob Banner",
+            "properties": {
+                "Visible": true,
+                "AdUnitID": "ca-app-pub-3940256099942544/6300978111",
+                "AdUnitID_iOS": "ca-app-pub-3940256099942544/6300978111",
+                "TestMode": true,
+                "Width": 375,
+                "Height": 32,
+                "X": -1,
+                "ParentId": "2d3f4154-0110-40df-b301-0a6a19881724",
+                "Y": 0,
+                "RelativeX": -1,
+                "RelativeY": 0,
+                "position": "absolute",
+                "edgeOffsets": 0,
+                "style": {
+                    "position": "absolute",
+                    "left": "18.320003255208334%",
+                    "top": "72.22638680659671%",
+                    "display": "flex"
+                }
+            },
+            "children": [],
+            "id": "2515a7ca-b0e4-421a-8b3a-fb0e10c4de42",
+            "thunkableVersion": 423,
+            "bindings": null,
+            "name": "AdMob_Banner2"
+        },
+        {
+            "type": "Image",
+            "translatedName": "Image",
+            "properties": {
+                "Picture": "anniegram-low-resolution-logo-color-on-transparent-background.png",
+                "resizeMode": "stretch",
+                "Height": 60,
+                "Width": 100,
+                "Visible": true,
+                "X": 0,
+                "Y": 605,
+                "RelativeX": 0,
+                "RelativeY": 605,
+                "ResizeMode": "STRETCH",
+                "style": {
+                    "marginTop": 0,
+                    "marginBottom": 0,
+                    "marginLeft": 0,
+                    "marginRight": 0,
+                    "paddingTop": 0,
+                    "paddingBottom": 0,
+                    "paddingLeft": 0,
+                    "paddingRight": 0,
+                    "shadowColor": "rgba(0, 0, 0, 0)",
+                    "shadowOpacity": 0,
+                    "scaledShadowOpacity": 0,
+                    "shadowRadius": 0,
+                    "shadowOffset": {
+                        "width": 0,
+                        "height": 0
+                    },
+                    "position": "absolute",
+                    "left": "2.8533365885416666%",
+                    "top": "0%",
+                    "display": "flex"
+                },
+                "capInsets": {},
+                "ParentId": "30690152-1f4e-465c-8953-5859c93e68ea",
+                "position": "absolute",
+                "edgeOffsets": 605
+            },
+            "children": [],
+            "id": "5cf48db7-31b9-47e6-9f95-93903895ffcf",
+            "thunkableVersion": 422,
+            "bindings": null,
+            "name": "logo2"
+        },
         {
             "type": "Label",
             "translatedName": "Label",
@@ -186,10 +266,10 @@
                 "Height": 40,
                 "Width": 99,
                 "Visible": true,
-                "X": 262,
-                "Y": 10,
-                "RelativeX": 262,
-                "RelativeY": 10,
+                "X": 261,
+                "Y": 34,
+                "RelativeX": 261,
+                "RelativeY": 34,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "marginTop": 0,
@@ -220,7 +300,7 @@
                 "Disabled": false,
                 "ParentId": "b72e058e-9b27-45f5-a93b-ee3b162602ef",
                 "position": "absolute",
-                "edgeOffsets": 10
+                "edgeOffsets": 34
             },
             "children": [],
             "id": "73e63f8f-37f2-4649-8400-c5b2ad6fea15",
